@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+h1{
+    color: #F5F5F5;
+    font-size: 4rem;
+    font-family: "satisfy" ;
+    text-align: center;
+}
+h2{
+    font-family: "satisfy" ;
+    color: #48CFCB;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: "satisfy" ;
+    color: #F5F5F5;
+}
+.top-nav{
+    background-image: url(./images/ramen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.index{
+    background-image: url(./images/pho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    padding: 20px;
+}
+.about-nav{
+    background-image: url(./images/aboutimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    padding: 20px;
+}
+
+.flavor {
+    width: 50%;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.price {
+    width: 50%;
+    text-align: right;
+    font-size: 1.5rem;
+
+}
+
+p{
+    font-family: "satisfy" ;
+    padding: top;
+    color: black;
+    font-size: 1.25rem;
+}
+
+
+img{
+    display: block;
+    max-width: 10.5%;
+    max-height: 10.5%;
+
+}
+li {
+    float: right;
+  }
+
+a {
+    font-family: "satisfy" ;
+    display: block;
+    block-size: cover;
+    padding: 8px;
+    background-color: #424242;
+    font-size: 1.5rem;
+    color: #F5F5F5;
+ }
+ ul {
+    position: fixed;
+    top: 0;
+    width: 95%;
+  }
+.logo{
+    max-width: 25%;
+    max-height: 25%;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+.home h2{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 5rem;
+}
+hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 3px;
+    border-color: #229799;
+  }
+
+
